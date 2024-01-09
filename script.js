@@ -108,3 +108,17 @@ function getPasswordOptions() {
   }
   return characterTypes;
 }
+
+// Function for getting a random element from an array
+function getRandom(arr) {
+    let password = '';
+    for (let i = 0; i < passwordLength; i++) {
+      const randomCharSetIndex = Math.floor(Math.random() * arr.length);
+      const randomCharSet = arr[randomCharSetIndex];
+
+      const randomIndex = Math.floor(Math.random() * randomCharSet.length);
+      console.log({randomIndex, randomCharSet});
+      password += randomCharSet[randomIndex];
+    }
+    return password;
+}
