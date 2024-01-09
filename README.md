@@ -1,6 +1,9 @@
 # Password-Generator
 This simple application generates a password based on user-defined criteria when a button is clicked. It prompts the user for various password criteria, ensuring the password meets specified length and character type requirements.
 
+## Note
+    The index file and the style.css file were provided by the Teaching staff. I have further completed the project implementing the script.js file for the working functionality of the password generation.
+
 ## Features
 
 ### Password Length:
